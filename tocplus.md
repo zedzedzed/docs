@@ -104,7 +104,7 @@ Use the TOC+ widget and drag it into your desired position. If you want the tabl
 
 ### Unlike Wikipedia, I want all my anchors to be lowercase and use hyphens rather than underscores
 
-There are two options that allow you to adjust the casing and use of hyphens. If you still require more, you can massage it a little more by attaching into the `toc_url_anchor_target` filter. See the [developers](#For_developers) section for an example.
+There are two options that allow you to adjust the casing and use of hyphens. If you still require more, you can massage it a little more by attaching into the `toc_url_anchor_target` filter. See the [developers](#for-developers) section for an example.
 
 ### I would like to incorporate a sitemap
 
