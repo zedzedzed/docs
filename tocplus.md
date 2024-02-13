@@ -37,6 +37,13 @@ Custom post types are supported, however, auto insertion works only when `the_co
 
 ## Screenshots
 
+![An example of the table of contents, positioned at the top, right aligned, and a width of 275px](assets/images/screenshot-1.png)
+![An example of the sitemap_pages shortcode](assets/images/screenshot-2.png)
+![An example of the sitemap_posts shortcode](assets/images/screenshot-3.png)
+![The options panel found in Settings > TOC+](assets/images/screenshot-4.png)
+![Some advanced options](assets/images/screenshot-5.png)
+![The sitemap tab](assets/images/screenshot-6.png)
+
 ## Install / upgrade
 
 Install the plugin by searching for Table of Contents Plus from the plugin add menu, or directly from the WordPress plugins repository.
