@@ -8,8 +8,14 @@ title: Table of Contents Plus
 
 A powerful yet user friendly WordPress plugin that automatically creates a context specific index or table of contents (TOC) for long pages (and custom post types). More than just a table of contents plugin, this plugin can also output a sitemap listing pages and/or categories across your entire site.
 
-1. Table of contents
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
 {:toc}
+</details>
 
 ## Description
 
