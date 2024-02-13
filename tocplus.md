@@ -4,8 +4,12 @@ title: Table of Contents Plus
 ---
 
 # Table of Contents Plus
+{: .no_toc }
 
 A powerful yet user friendly WordPress plugin that automatically creates a context specific index or table of contents (TOC) for long pages (and custom post types). More than just a table of contents plugin, this plugin can also output a sitemap listing pages and/or categories across your entire site.
+
+1. Table of contents
+{:toc}
 
 ## Description
 
