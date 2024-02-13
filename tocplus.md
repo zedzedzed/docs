@@ -123,8 +123,52 @@ The plugin was designed to be as seamless and painfree as possible and did not r
 
 When parameters are left out for the shortcodes below, they will fallback to the settings you defined under Settings > TOC+.
 
+### [toc]
 
+Lets you generate the table of contents at the preferred position. Also useful for sites that only require a TOC on a small handful of pages.
 
+Attributes:
+
+* `label`: text, title of the table of contents
+* `no_label`: true/false, shows or hides the title
+* `wrapping`: text, either “left” or “right”
+* `heading_levels`: numbers, this lets you select the heading levels you want included in the table of contents. Separate multiple levels with a comma. Example: include headings 3, 4 and 5 but exclude the others with `heading_levels="3,4,5"`
+* `exclude`: text, enter headings to be excluded. Separate multiple headings with a pipe `|`. Use an asterisk `*` as a wildcard to match other text. You could also use regular expressions for more advanced matching.
+* `class`: text, enter CSS classes to be added to the container. Separate multiple classes with a space.
+
+### [no_toc]
+
+Allows you to disable the table of contents for the current post, page, or custom post type.
+
+### [sitemap]
+
+Produces a listing of all pages and categories for your site. You can use this on any post, page or even in a text widget.
+
+### [sitemap_pages]
+
+Lets you print out a listing of only pages.
+
+Attributes:
+
+* `heading`: number between 1 and 6, defines which html heading to use
+* `label`: text, title of the list
+* `no_label`: true/false, shows or hides the list heading
+* `exclude`: IDs of the pages or categories you wish to exclude
+* `exclude_tree`: ID of the page or category you wish to exclude including its all descendants
+
+### [sitemap_categories]
+
+Similar to `[sitemap_pages]` but for categories.
+
+### [sitemap_posts]
+
+This lets you print out an index of all published posts on your site. By default, posts are listed in alphabetical order grouped by their first letters. There are CSS classes for each section, letter and list allowing you to customise the appearance.
+
+Attributes:
+
+* `order`: text, either ASC or DESC
+* `orderby`: text, popular options include “title”, “date”, “ID”, and “rand”. See WP_Query for a list.
+* `separate`: true/false (defaults to true), does not separate the lists by first letter when set to false.
 
 ## For developers
 
